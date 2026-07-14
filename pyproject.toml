@@ -38,6 +38,7 @@ dev = [
 [project.scripts]
 dnsrecon = "dnsrecon.__main__:main"
 restdnsrecon = "dnsrecon.api_cli:main"
+dnsrecon-recursive = "dnsrecon.subdomain_discovery:main"
 
 [tool.setuptools.dynamic]
 version = { attr = "dnsrecon.cli.__version__" }
